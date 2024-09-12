@@ -18,6 +18,7 @@ body {
     /* border: 2px solid yellow; */
     max-width: 940px;
     margin: auto;
+    color: black;
 }
 
 .black-bg {
@@ -177,6 +178,7 @@ section#contact a {
     color: black;
     font-size: 18px;
 }
+
 section#contact p {
     display: block;
     text-decoration: none;
