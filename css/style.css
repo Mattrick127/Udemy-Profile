@@ -37,7 +37,7 @@ iframe {
 }
 
 section {
-   padding: 40px 0;  
+   padding: 40px 0 0 0;  
 }
 
 hr {
@@ -88,7 +88,6 @@ section img#profile {
 
 section#hero {
     padding-top: 68px;
-    padding-bottom: 58px;
 }
 
 section#hero h1 {
