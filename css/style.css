@@ -16,9 +16,9 @@ body {
 
 .container {
     /* border: 2px solid yellow; */
+    color: black;
     max-width: 940px;
     margin: auto;
-    color: black;
 }
 
 .black-bg {
@@ -108,7 +108,6 @@ section#hero h2 {
 }
 
 section#hero p {
-    max-width: 465px;
     margin: auto;
     margin-bottom: 20px;
     color: white;
@@ -179,20 +178,9 @@ section#contact a {
     font-size: 18px;
 }
 
-section#contact p {
-    display: block;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-}
-
 section#contact a img {
     vertical-align: middle;
     margin-right: 12px;
-}
-
-span {
-    color: black;
 }
 
 footer {
