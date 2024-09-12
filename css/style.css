@@ -178,6 +178,13 @@ section#contact a {
     font-size: 18px;
 }
 
+section#contact p {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
 section#contact a img {
     vertical-align: middle;
     margin-right: 12px;
