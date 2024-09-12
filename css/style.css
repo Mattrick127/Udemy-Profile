@@ -20,8 +20,8 @@ body {
     margin: auto;
 }
 
-.blue-bg {
-    background-color: var(--dark-blue);
+.black-bg {
+    background-color: black;
     color: white;
 }
 
