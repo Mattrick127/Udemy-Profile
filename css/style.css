@@ -34,10 +34,6 @@ iframe {
     max-width: 100%;
 }
 
-section {
-   padding: 40px 0 0 0;  
-}
-
 hr {
     width: 70px;
     height: 8px;
@@ -64,7 +60,9 @@ header {
     text-align: center;
     padding: 20px 0;
 }
-
+ul{
+    margin-left: -40px;
+}
 header li {
     display: inline;
 }
