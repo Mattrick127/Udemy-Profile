@@ -9,7 +9,6 @@
 
 body {
     margin: 0;
-    padding: 0;
     text-align: center;
     font-family: "Lato", sans-serif;
 }
@@ -17,8 +16,6 @@ body {
 .container {
     /* border: 2px solid yellow; */
     color: black;
-    max-width: 940px;
-    margin: auto;
 }
 
 .black-bg {
@@ -214,6 +211,9 @@ footer .container {
         max-width: 100%;
     }
 
+    header {
+        height: 70px;
+    }
 }
 
 /* End of Design for Small Desktops */
@@ -221,6 +221,14 @@ footer .container {
 /* Start of Design for Tablets */
 
 @media screen and (max-width: 960px) {
+
+    header {
+        font-size: 20px;
+    }
+
+    section#hero h1 {
+        font-size: 40px;
+    }
     
 }
 
@@ -229,5 +237,13 @@ footer .container {
 /* Start of Design for Mobile Phones */
 
 @media screen and (max-width: 576px) {
+
+    header {
+        font-size: 20px;
+    }
+
+    section#hero h1 {
+        font-size: 40px;
+    }
         
 }
