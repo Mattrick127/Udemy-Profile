@@ -238,12 +238,11 @@ footer .container {
 @media screen and (max-width: 576px) {
 
     header {
-        max-width: 500px;
         font-size: 20px;
     }
 
     section#hero h1 {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     header nav ul li {
