@@ -209,10 +209,11 @@ footer .container {
 
 @media screen and (max-width: 1440px) {
     
-    .container {
-        width: 1180px;
-        max-width: 90%;
+
+    body {
+        max-width: 100%;
     }
+
 }
 
 /* End of Design for Small Desktops */
@@ -221,10 +222,6 @@ footer .container {
 
 @media screen and (max-width: 960px) {
     
-    .container {
-        width: 92%;
-        max-width: 92%;
-    }
 }
 
 /* End of Design for Tablets */
@@ -232,10 +229,5 @@ footer .container {
 /* Start of Design for Mobile Phones */
 
 @media screen and (max-width: 576px) {
-    
-    
-    .container {
-        width: 92%;
-        max-width: 92%;
-    }
+        
 }
