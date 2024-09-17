@@ -9,6 +9,7 @@
 
 body {
     margin: 0;
+    padding-left: 10px 0;
     text-align: center;
     font-family: "Lato", sans-serif;
 }
@@ -124,7 +125,6 @@ section#hero li img {
 }
 
 section#skillset .skills {
-    width: 500px;
     margin: auto;
 }
 
@@ -205,14 +205,13 @@ footer .container {
 /* Start of Design for Small Desktops */
 
 @media screen and (max-width: 1440px) {
-    
-
-    body {
-        max-width: 100%;
-    }
 
     header {
-        height: 70px;
+        font-size: 20px;
+    }
+
+    section#hero h1 {
+        font-size: 40px;
     }
 }
 
@@ -239,11 +238,16 @@ footer .container {
 @media screen and (max-width: 576px) {
 
     header {
+        max-width: 500px;
         font-size: 20px;
     }
 
     section#hero h1 {
         font-size: 40px;
+    }
+
+    header nav ul li {
+        display: inline-block;
     }
         
 }
