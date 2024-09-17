@@ -65,10 +65,6 @@ header {
     padding: 20px 0;
 }
 
-ul {
-    list-style-type: none;
-}
-
 header li {
     display: inline;
 }
@@ -76,7 +72,7 @@ header li {
 header a {
     color: white;
     text-decoration: none;
-    margin: 0 22px;
+    margin: 12px;
 }
 
 section img#profile {
@@ -142,7 +138,7 @@ section#skillset span {
 
 section#experience article {
     border-bottom: 1px solid #D9D9D9;
-    padding: 30px 0;
+    padding: 30px;
 }
 
 section#experience article:last-of-type {
@@ -239,6 +235,10 @@ footer .container {
 
     header {
         font-size: 20px;
+    }
+
+    ul {
+        font-size: 12px;
     }
 
     section#hero h1 {
